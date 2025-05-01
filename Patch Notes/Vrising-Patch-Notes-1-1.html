@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Rising Patch Notes 1.1 - Invaders of Oakveil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #18181c;
+            color: #f3f3f7;
+        }
+        header {
+            background: #23232b;
+            padding: 2rem 1rem 1rem 1rem;
+            text-align: center;
+            border-bottom: 2px solid #39394a;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            color: #b3b3c6;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        nav {
+            width: 260px;
+            background: #23232b;
+            padding: 2rem 1rem;
+            border-right: 2px solid #39394a;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            margin-bottom: 1.2rem;
+        }
+        nav a {
+            color: #b3b3c6;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #e94560;
+        }
+        main {
+            flex: 1;
+            padding: 2rem 3rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            color: #e94560;
+            margin-top: 0;
+        }
+        h3 {
+            color: #f3c969;
+        }
+        ul, ol {
+            margin-left: 1.5rem;
+        }
+        .subsection {
+            margin-bottom: 1.2rem;
+        }
+        .note {
+            background: #23232b;
+            border-left: 4px solid #e94560;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            color: #f3c969;
+        }
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                border-right: none;
+                border-bottom: 2px solid #39394a;
+            }
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>V Rising Patch Notes 1.1</h1>
+        <p>Invaders of Oakveil</p>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#world-updates">World Updates</a></li>
+                <li><a href="#castle-updates">Castle Updates</a></li>
+                <li><a href="#audio-music">Audio & Music</a></li>
+                <li><a href="#server-settings">Server Settings</a></li>
+                <li><a href="#progression">Progression Changes</a></li>
+                <li><a href="#units">Units</a></li>
+                <li><a href="#attributes">Attribute Rework</a></li>
+                <li><a href="#blood">Blood</a></li>
+                <li><a href="#stygian-awakenings">Stygian Awakenings</a></li>
+                <li><a href="#weapons-spells-armor">Weapons, Spells & Armor</a></li>
+                <li><a href="#bug-fixes">Bug Fixes</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="world-updates">
+                <h2>World Updates</h2>
+                <h3>New Biome – Oakveil Woodlands</h3>
+                <p>Paths to the northwest sink into the overgrowth, swallowed by the dangerous and untamed wilds of the Oakveil Woodlands. A land gone untouched for centuries, unbeknownst to the people of Vardoran, it has been harboring a dangerous secret. On its northernmost shores, an invading enemy has landed and begun preparations to serve a dark purpose. Under the commanding glare of their Serpent Queen, Megara, the Venom Blades perform secret rituals to corrupt the land and harvest precious Venom Sap from the corrupted nature.</p>
+                <p>They cannot be allowed to gather their full strength, lest they threaten to consume all of Vardoran, and you with it. Go forth, Vampire, and show them who Vardoran truly belongs to.</p>
+                <ul>
+                    <li>New Location – Carvers Logging Outpost</li>
+                    <li>New Location – Venom Mixing Outpost</li>
+                    <li>New Location – Venom Blades Bastion</li>
+                    <li>New Location – Oakveil Shoreline</li>
+                </ul>
+                <h3>Venom Blades</h3>
+                <p>New enemy faction 'Venom Blades' have been added to the game.</p>
+                <p>The Venom Blades come from parts unknown, obsessed with carrying out the will of their Serpent Queen Megara, to whom their loyalty is absolute. At her command, they carve dark ritual symbols in the trees, weeping the magically altered dark venom sap from the living bark and collecting it for their arcane purposes.</p>
+                <h3>Farbane Woods</h3>
+                <ul><li>A cave exit has been added, allowing players to fast travel here from Oakveil Woodlands.</li></ul>
+                <h3>Silverlight Hills</h3>
+                <ul><li>Two connecting pathways have been built to bridge the northern parts of Silverlight Hills with Oakveil Woodlands.</li></ul>
+                <h3>Dunley Farmlands</h3>
+                <ul>
+                    <li>New Location – List Field</li>
+                    <li>In the northwestern parts of the biome, a new road has been established, connecting Dunley to Gloomrot North.</li>
+                </ul>
+                <h3>Gloomrot</h3>
+                <ul><li>Two connecting roads have been built to bridge Gloomrot North with Oakveil Woodlands.</li></ul>
+                <h3>Idle interactions</h3>
+                <p>Units now perform additional types of actions while idle. These actions include units leaning against walls, working in the fields, sitting by campfires, and more.</p>
+                <h3>Dynamic Clouds</h3>
+                <p>Clouds have been slightly reworked to allow for different kinds of density in different areas.<br>
+                Some boss arenas now have denser dynamic clouds, making it easier to fight these enemies during daytime. This includes the following V Bloods:</p>
+                <ul>
+                    <li>Grayson the Armourer</li>
+                    <li>Finn the Fisherman</li>
+                    <li>Quincey the Bandit King</li>
+                    <li>Sir Erwin the Gallant Cavalier (New)</li>
+                    <li>Terah the Geomancer</li>
+                    <li>Gaius the Cursed Champion (New)</li>
+                    <li>Octavian the Militia Captain</li>
+                    <li>Angram the Purifier</li>
+                    <li>Mairwyn the Elementalist</li>
+                    <li>Stavros the Carver (New)</li>
+                    <li>Talzur the Winged Horror</li>
+                    <li>Megara the Serpent Queen (New)</li>
+                </ul>
+                <h3>Contests</h3>
+                <p>This update brings a new way to play PvP called 'Contests'.</p>
+                <p>There are two ways to play contests: either you craft and place a Dueling Banner for one vs one combat, or you can build an Arena in your castle using the new Arena feature for team combat.</p>
+                <p>Contests are available in both PvP and PvE.</p>
+                <h4>Dueling Banner</h4>
+                <p>A new item that, when placed, allows other players to accept a duel with the owner of the banner. Both duelists will be restored to their initial health when the duel is over.</p>
+                <h4>Arena Station</h4>
+                <p>Allows for a more advanced PvP setup, including teams, combat area setup, adjustments to sudden death settings, and more.</p>
+            </section>
+            <section id="castle-updates">
+                <h2>Castle Updates</h2>
+                <h3>New Stations</h3>
+                <ul>
+                    <li><strong>Stables</strong><br>A place where your horses can feel truly at home in your castle. Not only do they feel at home, but you can feed your horses to allow them to reach peak performance. You can also unlock new Perks for your most special four-legged friends.</li>
+                </ul>
+                <h4>Horses and Mounts</h4>
+                <ul>
+                    <li>With the introduction of the Stable, players can now park their horses to automatically feed them with plant fibers at no cost. Adding flowers to the mix allows horses to permanently increase their stats. Once a horse is converted into a Vampire Horse, the Stable can also be used to unlock perks, enhancing its overall utility.</li>
+                    <li>Improved the mechanics for mounting, dismounting, and recalling your horse</li>
+                    <li>Horses may now be randomized with Max speed between 7.5-9.5 (increased from 7.0-9.0).</li>
+                    <li>Horses may now be randomized with acceleration speed between 3.5-6 (increased from 3.0-5.0).</li>
+                    <li>Vampire horse health has been reduced by 50% (from 400 to 200).</li>
+                    <li>Non-vampire horses can now be revived by players when downed.</li>
+                </ul>
+                <ul>
+                    <li><strong>Redistribution Engine</strong><br>Doctor Henry Blackbrew's second finest creation! This complicated piece of machinery is used to transfer items from one station directly to another.</li>
+                    <li><strong>Blood Homogenizer</strong><br>This wondrous machine allows you to blend two blood types, gaining bonuses from both. Ever wanted to combine the speed of rogue blood and the prowess of warrior blood? Now you can.</li>
+                    <li><strong>Fusion Forge</strong><br>The Fusion Forge is a new station in your castle, unlocked by defeating Dantos the Forgebringer. It allows you to fuse Reforged or Shattered Ancestral Weapons, allowing you to extract the best attributes of both weapons into a single one.<br>The same process can be done with Jewels, fusing two jewels of the same type into one, allowing you to extract and combine the effects you want.</li>
+                    <li><strong>Treasury</strong><br>With the Treasury flooring, you can now build your own Treasury. Any container placed within the Treasury becomes part of the territory inventory. This allows crafting stations, castle building, and player inventory crafting to automatically pull materials from the territory inventory without the need to manually retrieve resources from containers.</li>
+                    <li><strong>Advanced Sawmill</strong><br>A more powerful version of the sawmill. Used to extract late game resources.</li>
+                </ul>
+                <h3>Research Rework</h3>
+                <p>When discovering technology in the Research Desk, Study, and Athenaeum, you may now select from which category you want to research instead of randomizing from all categories.</p>
+                <h3>Invisible Foundations</h3>
+                <p>Added an 'Invisible Foundation' that is only placeable on ground level that allows players to keep the natural environment in their castle territory.<br>Invisible Foundations may be placed on top of destructible objects such as trees and rocks, but will prevent resources from regrowing on these tiles.</p>
+                <h3>Moving Growing Plots and Plants</h3>
+                <p>You may now move entire planters and growing plots that have plants or trees connected to them without having to dismantle the plants/trees first.</p>
+                <h3>Other Castle Additions</h3>
+                <ul>
+                    <li>Two new growing plots have been added</li>
+                    <li>Large Growing Plot with Decorative Paving</li>
+                    <li>Extra Large Growing Plot with Decorative Paving</li>
+                    <li>Added a new castle teleporter pair</li>
+                    <li>The Throne of Darkness now allows you access to the Servant Hunt panel.</li>
+                </ul>
+                <h3>New Decorations & Structures</h3>
+                <p>The following new decorative and structural items have been added:</p>
+                <ul>
+                    <li>New Treasury Floors added for the new Treasury room addition.</li>
+                    <li>A set of wall-mounted weapon decorations and a set of wallpapers for the new Arena feature.</li>
+                    <li>A large set of fences, signposts, wallpapers, floors, and other decorations for the Stables.</li>
+                    <li>Miscellaneous decorations fitting for your Workshop and your Smithy.</li>
+                    <li>Miscellaneous decorations fitting for your Alchemy laboratory.</li>
+                    <li>Tables now have a selection of table settings, including dinner sets, candles, flowers, and glassware that can be attached to them for further customization.</li>
+                    <li>New chairs and matching secretary desk decorations.</li>
+                    <li>Garden fountains and most castle water features have gotten updated visuals.</li>
+                    <li>Two new Well variants added.</li>
+                    <li>New Lavender plants for the Vase category.</li>
+                    <li>Dyable Wisteria plants for the wall growth and garden structure category.</li>
+                    <li>A new set of lamps with a crystal ball aesthetic.</li>
+                </ul>
+                <h3>Servant Updates</h3>
+                <ul>
+                    <li>Dominate Human has been reworked into 'Dominate', allowing players to charm any unit with a blood type. This expands imprisonment options and provides easier access to various blood types. However, converting dominated units into servants is still primarily restricted to humans.</li>
+                    <li>The Castle Throne is now accessible in the early game as it no longer requires reinforced planks to be built.</li>
+                    <li>Servants now start with 100 Hunting Proficiency, and early hunts in Farbane require less Hunting Proficiency to successfully complete.</li>
+                    <li>Servants can no longer be injured from participating in hunts.</li>
+                    <li>Hunt durations and success rates have been tweaked to make it somewhat easier to make servant hunts worthwhile and accessible in the early game.</li>
+                    <li>Servant convert timer reduced to 20 min from 40 min.</li>
+                </ul>
+                <h4>New Servant Hunts locations:</h4>
+                <ul>
+                    <li>Venom Blades Bastion</li>
+                    <li>Carvers Logging Outpost</li>
+                    <li>Venom Mixing Outpost</li>
+                    <li>Oakveil Shoreline</li>
+                </ul>
+            </section>
+            <section id="audio-music">
+                <h2>Audio & Music</h2>
+                <ul>
+                    <li>New sound option for speaker mode (7.1, stereo, etc.).</li>
+                    <li>Many sound effects updated and improved.</li>
+                    <li>Two new music tracks for Oakveil (day and night) and music box.</li>
+                    <li>New/updated vampire voice lines (Dominate, reviving horses, drinking blood potions).</li>
+                </ul>
+            </section>
+            <section id="server-settings">
+                <h2>Server Settings</h2>
+                <ul>
+                    <li>Castle limit can be set per clan instead of per player.</li>
+                    <li>New setting for Stygian Shard drops in Mortium.</li>
+                    <li>New setting for Soul Shard durability loss rate.</li>
+                    <li><strong>Pause Functionality:</strong> Private game hosts can pause from the menu.</li>
+                    <li><strong>Castle Raiding:</strong> Golems trigger attack timer on stairs, pillars can be destroyed, Siege Golem Slam can't hit through walls, castle entrance HP halved, exploit fixes.</li>
+                    <li><strong>Incursion Events:</strong> Less health scaling for spawned enemies with more players nearby (PvP).</li>
+                    <li><strong>UI/UX:</strong> Build menu reorganized, new sub-categories, trader descriptions, improved stack splitting, text scaling, sorting tweaks, new HUD alert animations, map legend improvements.</li>
+                </ul>
+            </section>
+            <section id="progression">
+                <h2>Progression Changes</h2>
+                <ul>
+                    <li><strong>Journal/Tutorial:</strong> Throne can be built after first servants, allowing earlier servant hunts.</li>
+                    <li><strong>Progression & Resources:</strong> Local castle teleporters unlocked separately, new Blood Soul recipes, new materials (Corrupted Oak, Venom Sap, Emery, Ember Glass, Corrupted Fish), crafting cost tweaks.</li>
+                    <li><strong>V Blood Unlocks:</strong> Many spell/tech unlocks rearranged, new unlocks for V Bloods, some level changes, new passives, new weapons, new elixirs, bug fixes for V Bloods.</li>
+                </ul>
+            </section>
+            <section id="units">
+                <h2>Units</h2>
+                <ul>
+                    <li><strong>Corpse Pile:</strong> No longer teleports down slopes, spits out in facing direction only.</li>
+                    <li><strong>New V Blood Units:</strong> Sir Erwin, Gaius, Stavros, Jakira, Lucile, Dantos, Megara.</li>
+                    <li><strong>New Oakveil Units:</strong> Wood Carver, Peon, Lurker, Dartflinger, Dreadcleaver, Viper, Alchemist, Striker, Sentinel, Corrupted Wolves/Bears/Man Traps/Deer/Treant/Crow, Emery Golem/Elemental.</li>
+                </ul>
+            </section>
+            <section id="attributes">
+                <h2>Attribute Rework</h2>
+                <ul>
+                    <li><strong>Spell Free Cast:</strong> Now grants Spell Charges, not cooldown resets. 100+ charges triggers a cooldown reset buff.</li>
+                    <li><strong>New/Updated Attributes:</strong> Weapon Skill Power, Ultimate Power, Weapon Charge, Shapeshift Speed, tiered attributes for Jewels/Ancestral Weapons.</li>
+                    <li><strong>Cooldown Rate:</strong> Now speeds up ability reset rate, not just sets cooldown on use.</li>
+                </ul>
+                <div class="subsection">
+                    <strong>Attribute Categories:</strong>
+                    <ul>
+                        <li>Core: Max Health, Physical Power, Spell Power, Movement Speed, Resource Harvest Power</li>
+                        <li>Physical: Bonus Physical Power, Attack Speed, Crit Chance/Power, Weapon Skill Power, Weapon Charges</li>
+                        <li>Spell: Bonus Spell Power, Crit Chance/Power, Ultimate Power, Minion Damage, Spell Charges</li>
+                        <li>Speed: Bonus Movement Speed, Shapeshift Speed, Mount Speed</li>
+                        <li>Defense: Damage Reduction, Shield Efficiency</li>
+                        <li>Health/Healing: Bonus Max Health, Regen, Healing Received, Leech (Primary/Weapon/Spell)</li>
+                        <li>Utility: Blood Efficiency, Blood Drain Reduction, Resource Yield</li>
+                        <li>Cooldown: Weapon/Spell/Veil/Ultimate Cooldown Rate</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="blood">
+                <h2>Blood</h2>
+                <ul>
+                    <li>All blood types reworked for more combat utility and easier access to rare types.</li>
+                    <li>Most units with blood can be dominated and imprisoned (servant conversion still mostly humans/draculin).</li>
+                    <li>Werewolves and Mutant Spitters can now be dominated, with higher blood quality chances.</li>
+                </ul>
+                <div class="subsection">
+                    <strong>Blood Type Bonuses:</strong>
+                    <ul>
+                        <li><strong>Warrior:</strong> Physical Power, Veil attack bonus, Weapon Skill Power, Weapon Charge Rate, etc.</li>
+                        <li><strong>Brute:</strong> Attack Speed, Life Leech, Max Health, Parry chance, etc.</li>
+                        <li><strong>Rogue:</strong> Crit Chance/Power, Movement Speed, Veil cooldown, Armor exposure, etc.</li>
+                        <li><strong>Creature:</strong> Max Health, Regen, Healing, Resistances, Bite heal, etc.</li>
+                        <li><strong>Scholar:</strong> Spell Power, Shield, Cooldown, Ultimate Power, Spell Charge Rate, etc.</li>
+                        <li><strong>Draculin:</strong> Spell Power, Crit, Leech, Cooldown, etc.</li>
+                        <li><strong>Mutant:</strong> Spell Power, Shapeshift Speed, Ultimate Cooldown, Minion Damage, etc.</li>
+                        <li><strong>Worker:</strong> Resource yield, Damage vs. resources, Mount Speed, etc.</li>
+                        <li><strong>Corrupted (new):</strong> Reduced damage from Corrupted, Life Leech, increased drain, speed, attack speed, chance to spawn shadow, etc.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="stygian-awakenings">
+                <h2>Stygian Awakenings</h2>
+                <ul>
+                    <li>Passives reworked: unlock slots by defeating V Bloods, equip up to 5 passives from Stygian Altar.</li>
+                    <li>Unlock passives via scrolls (from Blood Souls) or Stygian Shards (random).</li>
+                </ul>
+                <div class="subsection">
+                    <strong>Tier 1 Passives (Elemental Awakenings):</strong>
+                    <ul>
+                        <li>Blood Spray, Sanguine Mastery, Chaos Kindling, Renewing Flames, Arcane Animator, Soul Drinker, Spiritual Infusion, Flowing Sorcery, Cold Soul, Chill Weave, Lightning Fast Strikes, Enhanced Conductivity</li>
+                    </ul>
+                    <strong>Tier 2 Passives (Vampire Awakenings):</strong>
+                    <ul>
+                        <li>Hunger For Blood, Rampage, Overpower, Ravenous Strikes, Lethal Strikes, Embrace Mayhem, Feral Haste, Wicked Power, Bastion, Dark Enchantment, Hunger For Power, Turbulent Velocity</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="weapons-spells-armor">
+                <h2>Weapons, Spells & Armor</h2>
+                <ul>
+                    <li><strong>New Weapons:</strong> Claws, Daggers, Twinblade (with unique attacks and skills).</li>
+                    <li><strong>Spell School Mastery:</strong> Progression in each school unlocks new traits (Blood, Chaos, Unholy, Illusion, Frost, Storm).</li>
+                    <li><strong>General Spell Updates:</strong> Abilities now have tags, ultimates/defensive spells can't crit, diminishing returns on stuns, ability-cast priority fixes.</li>
+                    <li><strong>New Vampire Spells:</strong> Carrion Swarm, Rain of Chaos, Chains of Death, Curse, Arctic Storm, Lightning Tendrils.</li>
+                    <li><strong>Spell Changes:</strong> Many spells rebalanced, cooldowns, damage, effects, and bug fixes across all schools.</li>
+                    <li><strong>Jewels:</strong> Now have 5 tiers, rebalanced effects, new/updated jewel effects for all schools.</li>
+                    <li><strong>Ancestral Weapons:</strong> Unique weapons now use same stat table as Epics, can be modified in Fusion Forge, new on-hit effects, level changes.</li>
+                    <li><strong>Weapon Changes:</strong> Many weapons rebalanced (Whip, Mace, Longbow, Slashers, Reaper, Great Sword, Spear, Sword, Crossbow, Pistols).</li>
+                    <li><strong>Armor:</strong> All set bonuses reworked, new bonuses for all major sets, bag slot increases.</li>
+                    <li><strong>Magic Sources:</strong> Attribute tweaks, new on-hit effects, Tier 7+ triggers now buff self, new Tier 4 rings.</li>
+                </ul>
+            </section>
+            <section id="bug-fixes">
+                <h2>Bug Fixes</h2>
+                <ul>
+                    <li>Workstations bonus fix for "In Contained Castle Room".</li>
+                    <li>"Building a Castle" quest trigger fix.</li>
+                    <li>Carriages now respawn properly.</li>
+                    <li>Castle relocation clan build block fixed.</li>
+                    <li>Non-hostile villagers/fleeing creatures/corrupted shadow no longer trigger in-combat state.</li>
+                    <li>Chaining ability casts is more responsive.</li>
+                    <li>Prison interaction limitations fixed.</li>
+                    <li>Castle territory spawn fixes.</li>
+                    <li>Wandering bosses no longer appear inside player castles.</li>
+                    <li>Picking up death container no longer exits shapeshift (also fixes Siege Golem form exit bug).</li>
+                    <li>Memory usage and leaks reduced/fixed.</li>
+                    <li>Bat form landing/collision fixes.</li>
+                    <li>V Blood combat music no longer persists.</li>
+                    <li>Mounts no longer run in air after dismount.</li>
+                    <li>Invisible wall and inaccessible terrain fixes for bat form.</li>
+                    <li>Resource nodes stuck in terrain removed.</li>
+                    <li>Ground texture fix in Dracula's Demise.</li>
+                    <li>Coffin footsteps bug fixed.</li>
+                    <li>Castle build spot and ramp fixes.</li>
+                    <li>Unit spawn inside collision fixes.</li>
+                    <li>Grinder VFX night bug fixed.</li>
+                    <li>Admin mode: no footsteps, no fade-out for objects.</li>
+                    <li>In-game chat no longer autoscrolls on new message.</li>
+                    <li>Attack speed bug with high latency fixed.</li>
+                    <li>Players can no longer get stuck in collision.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html> 
